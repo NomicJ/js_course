@@ -1,0 +1,58 @@
+.App {
+}
+
+.App-header {
+  height: 100px;
+  background-color: #282c34;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  font-size: 20px;
+}
+
+/* ================================== */
+
+.main__content {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==BTN====================== */
+
+button {
+  font-size: 18px;
+  height: 50px;
+  width: 125px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.2s linear;
+  background: #0b63f6;
+}
+
+button:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #3c82f8;
+}
+
+input {
+  padding-left: 15px;
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+}
+/* ================= */
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
